@@ -1,1 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 1rem;
+}
+
+.container {
+  background: lightblue;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 550px;
+}
+
+textarea, select, button {
+  width: 100%;
+  margin: 0.75rem 0;
+  padding: 0.85rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  box-sizing: border-box;
+  transition: border 0.2s ease;
+}
+
+textarea:focus, select:focus, button:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+button {
+  background: #4a90e2;
+  color: white;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #357ab8;
+}
+
+.output {
+  margin-top: 1rem;
+  background: #eef1f5;
+  padding: 1rem;
+  border-radius: 10px;
+  min-height: 150px;
+  resize: vertical;
+  font-family: monospace;
+  font-size: 1rem;
+  color: #333;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow: auto;
+}
 
