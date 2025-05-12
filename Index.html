@@ -1,1 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DeeprajSecretCode</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🔐 DeeprajSecretCode</h1>
+
+    <label for="mode">Choose Mode:</label>
+    <select id="mode">
+      <option value="encode">Encode</option>
+      <option value="decode">Decode</option>
+    </select>
+
+    <label for="inputText">Enter Your Message:</label>
+    <textarea id="inputText" placeholder="Type your secret code here..."></textarea>
+
+    <button onclick="processText()">Submit</button>
+
+    <h3>Output:</h3>
+    <div class="output" id="output"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
 
