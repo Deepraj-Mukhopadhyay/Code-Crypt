@@ -18,7 +18,7 @@
 
 Click below to download the latest version:
 
-**[⬇️ Download Deepraj-CodeCrypt APK](https://github.com/Deepraj-Mukhopadhyay/Code-Crypt/releases/download/v1.0/app-release.apk**)
+[⬇️ Download Deepraj-CodeCrypt APK](**https://github.com/Deepraj-Mukhopadhyay/Code-Crypt/releases/download/v1.0/app-release.apk**)
 
 > Note: You may need to enable "Install from Unknown Sources" in your Android settings.
 > 
